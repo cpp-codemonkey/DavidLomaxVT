@@ -1,0 +1,38 @@
+/* CSS Document */
+.kan-and-lomax
+{
+	width: 35%;
+	padding: 3% 2% 3%;
+}
+
+.lomax13yrs-img
+{
+	width: 50%;
+}
+
+.lomax13yrs-text
+{
+	font-size: 0.6rem;
+	margin: 0% 24%;
+}
+
+@media (min-width: 1028px)
+{
+	.kan-and-lomax
+	{
+		width: 20%;
+		padding: 1% 2% 1%;
+	}
+	
+	.lomax13yrs-img
+	{
+		width: 30%;
+	}
+	
+	.lomax13yrs-text
+	{
+		font-size: 0.8rem;
+		margin: 0% 35%;
+	}	
+}
+
