@@ -1,0 +1,172 @@
+
+.VKVT-header
+{
+	width: auto;
+}
+
+.dark-grey-section
+{
+	background-color: #212121;
+	color: white;
+}
+
+.medium-grey-section
+{
+	background-color: #4B4B4B;
+	color: white;
+}
+
+.light-grey-section
+{
+	background-color: dimgray;
+	color: white;
+}
+
+.white-text
+{
+	color: white;	
+}
+
+.section-text
+{
+	padding: 2%;	
+}
+
+.highlight-text-color
+{
+	color: #FEE440;
+}
+
+.section-title
+{
+	font-family: "Times New Roman";
+	font-size: 26pt;
+	font-style: italic;
+}
+
+.dropdown-color
+{
+	background-color: #4A4A4A;	
+}
+
+.dropdown-text
+{
+	color: white;
+}
+
+#page-title
+{
+	font-size: 2rem;
+	text-align: center;
+	padding: 2%;
+	font-weight: bold;
+	font-family: "Times New Roman";
+}
+
+.image-padding
+{
+	padding: 2%;
+}
+
+.card-padding
+{
+	padding: 2%;
+}
+
+.center-image
+{
+	display:block; 
+	margin:0 auto;
+}
+
+.link-image-padding
+{
+	padding: 4%;	
+}
+
+/* selector for small screens */
+@media (max-width: 1028px)
+{
+	.portrait-image
+	{
+		width: 50%;
+	}
+	
+	.narrow-section
+	{
+		padding: 2% 10% 2%;
+	}
+}
+
+navbar-nav.navbar-expand-lg.navbar-collapse 
+{
+	position: absolute;
+	left: 50%;
+	transform: translatex(-50%);
+}
+
+.social-icon 
+{
+	margin: 20px 10px;
+	color: #FC3E00;
+}
+
+.social-icon-classes
+{
+	color: #FC3E00;
+}
+
+
+.form-padding
+{
+	padding: 2%;
+}
+
+/* selector for medium screens */
+@media (min-width: 1028px)
+{
+	.instructor-portrait
+	{
+		width: 100%;
+	}
+	
+	.narrow-section
+	{
+		padding: 0% 20%;
+	}
+	
+	.fav-icon
+	{
+		padding: 1% 1%;
+	}	
+	
+	/* ensures navbar is centered when on large screens */
+	.navbar-expand-lg .navbar-collapse 
+	{
+		display: flex!important;
+		justify-content: space-around;
+		flex-basis: auto;
+	}
+}
+
+/* selector for very large displays*/
+@media (min-width: 2000px)
+{
+	.narrow-section
+	{
+		padding: 0% 20%;
+	}
+	
+	.instructor-portrait
+	{
+		width: 50%;
+	}
+	
+	/* ensures navbar is centered when on large screens */
+	.navbar-expand-lg .navbar-collapse 
+	{
+		display: flex!important;
+		justify-content: space-around;
+		flex-basis: auto;
+	}
+}
